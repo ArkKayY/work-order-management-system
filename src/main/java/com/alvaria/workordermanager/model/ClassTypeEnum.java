@@ -5,9 +5,9 @@ package com.alvaria.workordermanager.model;
  */
 public enum ClassTypeEnum {
 
-    NORMAL,
-    PRIORITY,
-    VIP,
-    MANAGEMENT_OVERRIDE;
+	NORMAL,
+	PRIORITY,
+	VIP,
+	MANAGEMENT_OVERRIDE;
 
 }

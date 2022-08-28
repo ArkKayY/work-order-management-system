@@ -1,19 +1,20 @@
 package com.alvaria.workordermanager.model;
 
+import java.time.LocalDateTime;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Model to display error details during exception
+ * Request model for Work-Orders
  */
 @Getter
 @Setter
 @AllArgsConstructor
-public class ErrorDetails {
+public class WorkOrderRequest {
 
-	private int errorStatus;
-	private String errorMessage;
-	private String path;
+	private Long id;
+	private LocalDateTime time;
 
 }
