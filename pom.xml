@@ -11,7 +11,7 @@
     <groupId>com.alvaria</groupId>
     <artifactId>work-order-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>work-order-manager</name>
+    <name>work-order-manager</name> 
     <description>work-order-manager</description>
 
     <properties>
