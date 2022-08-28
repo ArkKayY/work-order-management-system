@@ -4,8 +4,9 @@ A webservice application that implements the tasks of a work-order-management-sy
 
 # Steps to run
 
-1. Locate WorkOrderManagerApplication.java under com.alvaria.workordermanager package.
-2. Right click -> Run as Java Application
+1. Run `mvn clean install` to install all necessary dependencies
+2. Locate WorkOrderManagerApplication.java under com.alvaria.workordermanager package.
+3. Right click -> `Run as Java Application`
 
 # Testing endpoints
 
